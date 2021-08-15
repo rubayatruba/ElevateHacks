@@ -1,0 +1,59 @@
+.headaction {
+  width: 101%;
+  height: auto;
+}
+
+body {
+  background-color: white;
+}
+
+
+.petitions {
+  width: 450px;
+  height: 70px;
+  background-color: aliceblue;
+  font-family:'Crimson Text', serif;
+  font-size: 20px;
+}
+
+/* text styles */
+
+h2 {
+ font-family:'Crimson Text', serif;
+ font-size: 54px;
+ font-weight: bold;
+ margin: 10px;
+}
+
+p4 {
+  font-family:'Crimson Text', serif;
+  font-size: 24px;
+  text-align: center;
+  
+}
+
+div.banner {
+  background-color: #F5FCFF;
+  width: 101%;
+  height: auto;
+  text-align: center;
+}
+
+label {
+  font-family:'Crimson Text', serif;
+  font-size: 24px;
+}
+
+.big {
+  width: 450px;
+  height: 150px;
+}
+
+.button1 {
+  background-color: #FFF3F3;
+  font-family:'Crimson Text', serif;
+  font-size: 24px;
+  width: 250px;
+}
+
+

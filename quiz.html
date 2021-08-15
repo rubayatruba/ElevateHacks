@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Quiz</title>
+    
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/quiz123.css">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+	<!-- import the webpage's javascript file -->
+	<!-- <script type="module" src=".js"></script> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+	 crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+	 crossorigin="anonymous">
+
+	</script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">School Integregation</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						<a class="nav-link" href="learn.html">Learn</a>
+						<a class="nav-link" href="quiz.html">Quiz</a>
+            	<a class="nav-link" href="action.html">Take Action</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+
+	<center>
+		<header>
+			<img class="quizf" src="images/Screen Shot 2021-08-14 at 10.22.36 PM.png".
+	</header>
+  <div class="grid">
+        <div id="quiz">
+            <h1>School Segregation</h1>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+
+
+<script src="quizjs.js"></script>
+
+	<!-- <main>
+
+		<h2>1. The Supreme Court ruled that _______________________ facilities for black and white were constitutional.</h2>
+    
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="https://cdn.americanprogress.org/content/uploads/2017/07/11132118/AP_630718025-1024x683.jpg">
+        <br>
+        <button id="q1a1">Fair But Separate</button>
+      </div>
+
+      
+
+      <div class="answer-choice">
+        <img src="https://i.guim.co.uk/img/media/eeae2d73aa7a4e5a967c8da9fcddc8dcd675c9d2/0_203_6920_4152/master/6920.jpg?width=1200&quality=85&auto=format&fit=max&s=13bdffe6659e07ff2db8ff97d14f6cbd">
+        <br>
+        <button id="q1a2">Separate But Unequal</button>
+      </div>
+
+    </div> 
+    <br><br><br>
+    <h2>2. May 17, 1954 the supreme court ruled that ___________________.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="https://cms.qz.com/wp-content/uploads/2016/05/schoolsegregation.jpg?quality=75&strip=all&w=900&h=900&crop=1">
+        <br>
+        <button id="q2a1">public schools in the nation had to admit all students regardless of race</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="https://media.npr.org/assets/img/2019/07/23/gettyimages-88413629_wide-755b48ca718a4b66f28bef3d70b3ef572b572542.jpg?s=1400">
+        <br>
+        <button id="q2a2">all schools could make their own rules regarding segregation
+</button>
+      </div>
+
+    </div> 
+        <br><br><br>
+
+    <h2>3. Southern leaders were willing and helpful in desegregating public schools in the south.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="https://emke.uwm.edu/wp-content/uploads/2018/07/9999000745-l.jpg">
+        <br>
+        <button id="q3a1">True</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="https://upfront.scholastic.com/content/dam/classroom-magazines/upfront/issues/2019-20/030920/p18-21-tp-timespast/UPF03090-TP-M6.jpg">
+        <br>
+        <button id="q3a2">False</button>
+      </div>
+
+    </div> 
+        <br><br><br>
+
+    <h2>4. When nine black students tried to attend school in Little Rock, Arkansas they were met with...</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX9FrmkV2CBRsCV41607mgHS2D9Js2GWrgjQ&usqp=CAU">
+        <br>
+        <button id="q4a1">National Guard Troops</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYwMTg2Nzg5NTM1OTUwMjUx/topic-segregation-promo-getty-515579376.jpg">
+        <br>
+        <button id="q4a2">The Governor</button>
+      </div>
+    </div> 
+    <br><br><br>
+
+    <h2>5. Brown vs Board of Education 1954 ended school segregation.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJWOrH-PRPZRMNv-L-kW_FlSOyfXZiEhZefw&usqp=CAU">
+        <br>
+        <button id="q5a1">True</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="https://wdet.org/media/daguerre/2019/11/14/453613cf031dcc4fc431.jpeg">
+        <br>
+        <button id="q5a2">False</button>
+      </div>
+
+    </div> 
+    <br><br><br>
+
+    <h2 id="result">Your score is...</h2>
+    <button id="displayresult">See Your Score</button>
+    <br>
+    <br><br>
+    <button id="restart">Restart</button>
+    
+  </main> -->
+  </center>
+  </body>
+</html>
